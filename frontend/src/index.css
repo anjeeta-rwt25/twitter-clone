@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Optional: Custom global styles */
+body {
+  @apply bg-black text-white antialiased;
+}
+
+a {
+  @apply text-blue-500 hover:underline;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
